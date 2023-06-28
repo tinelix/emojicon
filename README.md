@@ -57,7 +57,7 @@ More information: [rockerhieu/emojiconize](https://github.com/rockerhieu/emojico
 </LinearLayout>
 ```
 
-<img src="https://github.com/tinelix/twemojicon/raw/master/images/sample.png" height="400"/>
+<img src="https://github.com/tinelix/twemojicon/raw/master/images/sample.png" height="640"/>
 
 _Note: You can change the size and alignment of emojis in XML layout through attribute `emojiconSize` and `emojiconAlignment`, respectively._
 
