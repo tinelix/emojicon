@@ -1,5 +1,6 @@
 # About Emojicon
 Twemojicon based on [original Emojicon project](https://github.com/rockerhieu/emojicon), the development of which was discontinued.
+Contains some improvements and Twemoji pack instead of Apple copyrighted emoji pack.
 
 ## Emojicon with Twemoji pack (Twemojicon)
 
@@ -10,7 +11,7 @@ Do you like Twemojis? [Twemojicon](https://github.com/tinelix/twemojicon) is a l
 ### emojiconize
 
 ```java
-import dev.tinelix.twemojiconize.Emojiconize;
+import com.rockerhieu.emojiconize.Emojiconize;
 
 // Your activity must be a subclass of AppCompatActivity
 public class MainActivity extends AppCompatActivity {
@@ -56,7 +57,7 @@ More information: [rockerhieu/emojiconize](https://github.com/rockerhieu/emojico
 </LinearLayout>
 ```
 
-![image](https://github.com/rockerhieu/emojicon/raw/master/images/sample.jpg)
+![image](https://github.com/tinelix/twemojicon/raw/master/images/sample.png)
 
 _Note: You can change the size and alignment of emojis in XML layout through attribute `emojiconSize` and `emojiconAlignment`, respectively._
 
@@ -78,7 +79,7 @@ compile 'io.github.rockerhieu:emojicon:<latest-version>'
 
 ## Acknowledgements
 
-Emojicon is using emojis graphics from [Twemoji](https://github.com/arvida/emoji-cheat-sheet.com/tree/master/public/graphics/emojis), licensed by [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Emojicon is using emojis graphics from [Twemoji](https://github.com/twitter/twemoji).
 
 ## Contributing
 
@@ -91,7 +92,8 @@ but will be thoroughly reviewed and discussed.
 
 ## License
 
-* [Apache Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+* Twemoji Graphics - [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* Library - [Apache Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 ```
 Copyright 2014 Hieu Rocker
