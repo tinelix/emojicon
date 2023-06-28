@@ -15,7 +15,7 @@
   -->
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-  android:background="@drawable/keyboard_background_holo"
+  android:background="#e5151515"
   android:layout_width="match_parent"
   android:layout_height="match_parent">
 
