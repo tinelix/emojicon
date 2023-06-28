@@ -117,6 +117,8 @@ public class Places {
             Emojicon.fromChars("\ud83c\uddfa\ud83c\udde6"),
             Emojicon.fromChars("\ud83c\udde9\ud83c\uddea"),
             Emojicon.fromChars("\ud83c\udde6\ud83C\uddf2"),
+            Emojicon.fromChars("\ud83c\udde7\ud83c\uddec"),
+            Emojicon.fromChars("\ud83c\udde7\ud83c\uddfe"),
             Emojicon.fromChars("\ud83c\udde8\ud83c\uddf3"),
             Emojicon.fromChars("\ud83c\uddfa\ud83c\uddf8"),
             Emojicon.fromChars("\ud83c\uddeb\ud83c\uddf7"),
