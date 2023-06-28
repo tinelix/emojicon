@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.rockerhieu.emojicon;
+package dev.tinelix.twemojicon;
 
 import java.util.Arrays;
 import android.app.Activity;
@@ -25,8 +25,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import com.rockerhieu.emojicon.emoji.Emojicon;
-import com.rockerhieu.emojicon.emoji.People;
+import dev.tinelix.twemojicon.emoji.Emojicon;
+import dev.tinelix.twemojicon.emoji.People;
 
 /**
  * @author Hieu Rocker (rockerhieu@gmail.com)

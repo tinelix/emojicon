@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.rockerhieu.emojicon;
+package dev.tinelix.twemojicon;
 
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-import com.rockerhieu.emojicon.emoji.Emojicon;
+import dev.tinelix.twemojicon.emoji.Emojicon;
 
 import android.content.Context;
 import android.content.SharedPreferences;

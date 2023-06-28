@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.rockerhieu.emojicon;
+package dev.tinelix.twemojicon;
 
 import android.content.Context;
 import android.graphics.Canvas;

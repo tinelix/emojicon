@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.rockerhieu.emojicon.emoji;
+package dev.tinelix.twemojicon.emoji;
 
 /**
  * @author Hieu Rocker (rockerhieu@gmail.com)

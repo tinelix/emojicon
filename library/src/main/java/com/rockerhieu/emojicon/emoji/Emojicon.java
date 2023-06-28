@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.rockerhieu.emojicon.emoji;
+package dev.tinelix.twemojicon.emoji;
 
 import java.io.Serializable;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.rockerhieu.emojicon;
+package dev.tinelix.twemojicon;
 
 import android.app.Activity;
 import android.content.Context;
@@ -28,7 +28,7 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.*;
 import android.widget.EditText;
-import com.rockerhieu.emojicon.emoji.*;
+import dev.tinelix.twemojicon.emoji.*;
 
 import java.util.Arrays;
 import java.util.List;
