@@ -5,11 +5,12 @@ ext.emojiconVersionName = "1.2"
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    buildToolsVersion '29.0.0'
 
     defaultConfig {
         minSdkVersion 7
-        targetSdkVersion 22
+        //noinspection GradleDependency
+        targetSdkVersion 29
         versionCode 4
         versionName emojiconVersionName
     }
@@ -19,5 +20,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:22.2.0'
+    //noinspection GradleDependency,GradleCompatible
+    compile 'com.android.support:support-v4:24.0.0'
 }
