@@ -22,7 +22,7 @@
   <LinearLayout
     android:id="@+id/emojis_tab"
     android:layout_width="match_parent"
-    android:layout_height="50dip"
+    android:layout_height="40dip"
     android:layout_alignParentTop="true"
     android:orientation="horizontal">
 
