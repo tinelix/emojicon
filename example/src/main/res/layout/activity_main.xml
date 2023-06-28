@@ -34,14 +34,14 @@
         android:checked="false"
         android:text="@string/use_system_default" />
 
-    <io.github.rockerhieu.emojicon.EmojiconTextView
+    <dev.tinelix.twemojicon.EmojiconTextView
         android:id="@+id/txtEmojicon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/i_love_emojicon"
         emojicon:emojiconAlignment="baseline" />
 
-    <io.github.rockerhieu.emojicon.EmojiconEditText
+    <dev.tinelix.twemojicon.EmojiconEditText
         android:id="@+id/editEmojicon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

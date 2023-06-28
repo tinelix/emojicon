@@ -21,7 +21,7 @@
     android:layout_height="match_parent"
     tools:context="com.rockerhieu.emojicon.example.EmojiconsActivity">
 
-    <io.github.rockerhieu.emojicon.EmojiconsView
+    <dev.tinelix.twemojicon.EmojiconsView
         android:id="@+id/emojicons_view"
         android:layout_width="match_parent"
         android:layout_height="200dp"

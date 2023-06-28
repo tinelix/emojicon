@@ -1,23 +1,16 @@
-# Discontinued
-This projected is discontinued. Please consider using other alternative, i.e EmojiCompat.
+# About Emojicon
+Twemojicon based on [original Emojicon project](https://github.com/rockerhieu/emojicon), the development of which was discontinued.
 
-Contact me if you want to continue working on another forked repository so I can promote it here. Cheers!
+## Emojicon with Twemoji pack (Twemojicon)
 
-[![Android Gems](http://www.android-gems.com/badge/rockerhieu/emojicon.svg?branch=master)](http://www.android-gems.com/lib/rockerhieu/emojicon)
-
-[![CircleCI](https://circleci.com/gh/rockerhieu/emojicon.svg?style=svg&circle-token=3360549339f6271f6db44c24e23339ba75c054f4)](https://circleci.com/gh/rockerhieu/emojicon)
-![emojicon on Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.rockerhieu/emojicon/badge.svg)
-
-## Emojicon
-
-Do you like emojis in Whatsapp, iMessage? [Emojicon](http://rockerhieu.github.io/emojicon/) is a library to implement such a thing for Android.
+Do you like Twemojis? [Twemojicon](https://github.com/tinelix/twemojicon) is a library to implement such a thing for Android.
 
 ## Example
 
 ### emojiconize
 
 ```java
-import io.github.rockerhieu.emojiconize.Emojiconize;
+import dev.tinelix.twemojiconize.Emojiconize;
 
 // Your activity must be a subclass of AppCompatActivity
 public class MainActivity extends AppCompatActivity {
@@ -42,14 +35,14 @@ More information: [rockerhieu/emojiconize](https://github.com/rockerhieu/emojico
               android:layout_height="match_parent"
               android:orientation="vertical">
 
-    <io.github.rockerhieu.emojicon.EmojiconTextView
+    <dev.tinelix.twemojicon.EmojiconTextView
             android:id="@+id/txtEmojicon"
             android:text="I \ue32d emojicon"
             emojicon:emojiconAlignment="baseline"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-    <io.github.rockerhieu.emojicon.EmojiconEditText
+    <dev.tinelix.twemojicon.EmojiconEditText
             android:id="@+id/editEmojicon"
             android:text="I \ue32d emojicon"
             emojicon:emojiconSize="28sp"
@@ -59,7 +52,7 @@ More information: [rockerhieu/emojiconize](https://github.com/rockerhieu/emojico
             android:id="@+id/emojicons"
             android:layout_width="match_parent"
             android:layout_height="220dp"
-            class="io.github.rockerhieu.emojicon.EmojiconsFragment"/>
+            class="dev.tinelix.twemojicon.EmojiconsFragment"/>
 </LinearLayout>
 ```
 
@@ -83,18 +76,14 @@ Via Gradle:
 compile 'io.github.rockerhieu:emojicon:<latest-version>'
 ```
 
-## Building in Eclipse
-
-![Go home you're drunk](http://img2.wikia.nocookie.net/__cb20130819142928/cardfight/images/thumb/5/55/Go-home-youre-drunk.jpg/500px-Go-home-youre-drunk.jpg)
-
 ## Acknowledgements
 
-Emojicon is using emojis graphics from [emoji-cheat-sheet.com](https://github.com/arvida/emoji-cheat-sheet.com/tree/master/public/graphics/emojis).
+Emojicon is using emojis graphics from [Twemoji](https://github.com/arvida/emoji-cheat-sheet.com/tree/master/public/graphics/emojis), licensed by [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Contributing
 
 Please fork this repository and contribute back using
-[pull requests](https://github.com/rockerhieu/emojicon/pulls).
+[pull requests](https://github.com/tinelix/emojicon/pulls).
 
 Any contributions, large or small, major features, bug fixes, additional
 language translations, unit/integration tests are welcomed and appreciated

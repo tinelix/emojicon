@@ -21,9 +21,9 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.util.Arrays;
 
-import io.github.rockerhieu.emojicon.EmojiconPage;
-import io.github.rockerhieu.emojicon.EmojiconsView;
-import io.github.rockerhieu.emojicon.emoji.Emojicon;
+import dev.tinelix.twemojicon.EmojiconPage;
+import dev.tinelix.twemojicon.EmojiconsView;
+import dev.tinelix.twemojicon.emoji.Emojicon;
 
 public class EmojiconsActivity extends AppCompatActivity {
 
